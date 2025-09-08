@@ -1,0 +1,13 @@
+snow_dbt:
+  outputs:
+    dev:
+      account: ZBWULBD-BNB82869
+      database: dbt
+      password: Amandeepsingh21
+      role: ACCOUNTADMIN
+      schema: bronze
+      threads: 1
+      type: snowflake
+      user: JOHARAMAN
+      warehouse: COMPUTE_WH
+  target: dev
